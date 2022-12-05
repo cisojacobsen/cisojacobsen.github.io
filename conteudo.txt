@@ -1,0 +1,140 @@
+<main>
+
+      <!-- Introdução -->
+      <div class="intro">
+         <div class="img-perfil">
+            <img src="./img/perfil.jpg" alt="imagem de perfil">
+         </div>
+         <div class="conteudo">
+            <h1>Desenvolvedor Front End & UX/UI Designer</h1>
+            <p>Localizado no Rio de Janeiro</p>
+         </div>
+      </div>
+
+      <!-- Seção Experiências -->
+      <div class="experiencia" id="experiencia">
+         <div class="titulo-principal">
+            <h2>Experiência</h2>
+         </div>
+         <div class="conteudo-experiencia">
+            <p>Desenvolvo pequenos projetos como o Bikcraft utilizando apenas HTML, CSS e JavaScript. Para aplicativos web como a rede social Dogs eu trabalhei no UX e UI Design do projeto.</p>
+            <div class="trabalhos">
+               <div class="item">
+                  <h3>2045 | Bikcraft</h3>
+                  <p>Desenvolvo pequenos projetos como o Bikcraft utilizando apenas HTML, CSS e JavaScript. Para aplicativos web como a rede social Dogs.</p>
+                  <h3>Desenvolvedor Júnior</h3>
+                  <ul>
+                     <li>HTML</li>
+                     <li>CSS</li>
+                     <li>JavaScript</li>
+                     <li>UX Design</li>
+                     <li>UI Design</li>
+                  </ul>
+               </div>
+               <div class="item">
+                  <h3>2045 | Bikcraft</h3>
+                  <p>Desenvolvo pequenos projetos como o Bikcraft utilizando apenas HTML, CSS e JavaScript. Para aplicativos web como a rede social Dogs.</p>
+                  <h3>Desenvolvedor Júnior</h3>
+                  <ul>
+                     <li>HTML</li>
+                     <li>CSS</li>
+                     <li>JavaScript</li>
+                     <li>UX Design</li>
+                     <li>UI Design</li>
+                  </ul>
+               </div>
+               <div class="item">
+                  <h3>2044-45 | Surfbot</h3>
+                  <p>Desenvolvo pequenos projetos como o Bikcraft utilizando apenas HTML, CSS e JavaScript. Para aplicativos web como a rede social Dogs.</p>
+                  <h3>Estágio</h3>
+                  <ul>
+                     <li>HTML</li>
+                     <li>CSS</li>
+                     <li>JavaScript</li>
+                  </ul>
+               </div>
+               <div class="item">
+                  <h3>2044 | Brafé</h3>
+                  <p>Desenvolvo pequenos projetos como o Bikcraft utilizando apenas HTML, CSS e JavaScript. Para aplicativos web como a rede social Dogs.</p>
+                  <h3>Voluntário</h3>
+                  <ul>
+                     <li>Email Marketing</li>
+                     <li>HTML</li>
+                     <li>UX Design</li>
+                     <li>UI Design</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- Seção Formação -->
+      <div class="formacao" id="formacao">
+         <div class="titulo-principal">
+            <h2>Formação</h2>
+         </div>
+
+         <div class="cursos">
+            <div class="curso-item">
+               <h3>Bacharel</h3>
+               <p>Administração de Empresas</p>
+               <p>UFRJ</p>
+            </div>
+            <div class="curso-item">
+               <h3>Tecnólogo</h3>
+               <p>Design Digital</p>
+               <p>Infnet</p>
+            </div>
+            <div class="curso-item">
+               <h3>Mestre</h3>
+               <p>User Experience Design</p>
+               <p>UCLL</p>
+            </div>
+
+            <div class="cursos-intensivos">
+               <h3>Cursos Intensivos</h3>
+               <ul>
+                  <li>
+                     <span>UX Design & UI Design</span><span>56h</span>
+                  </li>
+                  <li>
+                     <span>Front End para Iniciantes</span><span>72h</span>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="idiomas">
+               <h3>Idiomas</h3>
+               <ul>
+                  <li>
+                     <span>Inglês</span><span>/ Fluente</span>
+                  </li>
+                  <li>
+                     <span>Espanhos</span><span>/ Intermediário</span>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+
+   </main>
+
+   <footer id="contato">
+      <div class="">
+         <p>Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa 👋</p>
+      </div>
+      <div>
+         <ul>
+            <li>
+               <a href="mailto:lobo@gmail.com">lobo@gmail.com</a>
+            </li>
+            <li>
+               <a href="tel:+5521988887777">+55 21 9.8888-7777</a>
+            </li>
+            <li>
+               <a href="http://instagram.com/origamid.cursos">@origamid.cursos</a>
+            </li>
+         </ul>
+      </div>
+      <span>Lobo. Alguns direitos reservados.</span>
+   </footer> 

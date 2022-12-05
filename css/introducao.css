@@ -1,0 +1,77 @@
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 100px;
+}
+
+.intro .intro-conteudo {
+  position: relative;
+}
+
+.intro .intro-conteudo h1 {
+  font-size: 4.5rem; /* 16px = 1rem logo, 4.5rem = 72px / 16px  */
+  line-height: 1.125; /* 4.5rem * 1.125 = 81px */
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.intro .intro-conteudo h1::before {
+  content: "";
+  display: block;
+  background: url("../img/detalhe.svg") no-repeat center;
+  width: 130px;
+  height: 100px;
+  position: absolute;
+  top: -15px;
+  left: -40px;
+  z-index: -1;
+}
+
+.intro .intro-conteudo p {
+  font-size: 1.5rem;
+  color: #525252;
+}
+
+@media (max-width: 1000px) {
+  .intro .intro-conteudo h1 {
+    font-size: 3rem;
+  }
+
+  /* fim media 1000px */
+}
+
+@media (max-width: 800px) {
+  .intro {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+
+  .intro .intro-conteudo h1::before {
+    width: 30px;
+    height: 10px;
+    left: 0;
+  }
+
+  .intro .intro-conteudo p {
+    font-size: 1.3rem;
+  }
+
+  /* fim media 800px */
+}
+
+@media (max-width: 600px) {
+  .intro {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .intro .intro-conteudo h1::before {
+    top: 0;
+  }
+
+  .intro .intro-conteudo h1 {
+    padding-top: 15px;
+  }
+  /* fim media 400px */
+}
